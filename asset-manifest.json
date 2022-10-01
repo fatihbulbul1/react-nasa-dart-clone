@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-nasa-dart-clone/static/css/main.984440a3.css",
+    "main.js": "/react-nasa-dart-clone/static/js/main.7640d747.js",
+    "static/media/satallite.gif": "/react-nasa-dart-clone/static/media/satallite.0073d44446d5a0d472cd.gif",
+    "static/media/explosion.gif": "/react-nasa-dart-clone/static/media/explosion.2a3f1a3b7c8089db3933.gif",
+    "static/media/google.png": "/react-nasa-dart-clone/static/media/google.9d00820e7a00cb8f153e.png",
+    "index.html": "/react-nasa-dart-clone/index.html",
+    "main.984440a3.css.map": "/react-nasa-dart-clone/static/css/main.984440a3.css.map",
+    "main.7640d747.js.map": "/react-nasa-dart-clone/static/js/main.7640d747.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.984440a3.css",
+    "static/js/main.7640d747.js"
+  ]
+}
