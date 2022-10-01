@@ -1,0 +1,158 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  color: #202124;
+}
+body{
+  min-height: 100vh;
+  animation: break 6s ease-in-out forwards;
+}
+a{
+  text-decoration: none;
+  color: #202124;
+}
+a:focus, a:visited, a:link, a:active{
+  text-decoration: none;
+  color: #202124;
+}
+nav{
+  padding: 20px 15px;
+  font-size: 13px;
+  display: flex;
+  justify-content: end;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-links li{
+  line-height: 24px;
+}
+.link:hover{
+  border-bottom: 1px solid #000;
+}
+.tools a , .avatar a{
+  display: flex;
+  align-items: center;
+}
+.avatar img{
+  border-radius: 15px;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.google-img{
+  width: 300px;
+}
+.input-div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 600px;
+}
+.input-div input{
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+.btns-div{
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.btn{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+footer{
+  background-color: #eee;
+  padding: 15px 35px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  left: 0;
+  bottom: 0;
+}
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.f-link{
+  font-size: 14px;
+  color: #70757a !important;
+  border: 1px solid transparent;
+}
+.satallite{
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  animation: crash 6s linear;
+}
+@media (max-width: 1024px) {
+  footer{
+    justify-content: space-evenly;
+  }
+}
+@keyframes crash {
+  0%{
+    translate: -100vw;
+    background-image: url("./images/satallite.gif");
+  }
+  49%{
+    background-image: url("./images/satallite.gif");
+  }
+  50%{
+    translate: 0;
+    background-image: url("./images/explosion.gif");
+  }
+  60%{
+    background-image: url("./images/explosion.gif");
+  }
+}
+@keyframes break {
+  50%{
+    rotate: 0deg;
+    color: white;
+  }
+  52%{
+    rotate: 1deg;
+    color: red;
+  }
+  54%{
+    rotate: -1deg;
+  }
+  56%{
+    rotate: 2deg;
+  }
+  58%{
+    rotate: -2deg;
+  }
+  60%{
+    rotate: 6deg;
+    color: white;
+  }
+  100%{
+    rotate: 6deg;
+  }
+}
